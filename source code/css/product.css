@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.explore-products .item {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.explore-products img {
+  display: block;
+  width: 100%;
+}
+
+.explore-products .view {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  opacity: 0;
+}
+
+.explore-products .item:hover .view {
+  opacity: 1;
+}
+
+.explore-products .star i {
+  color: #f7d833;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.explore-products p {
+  color: #e94560;
+}
+
+.explore-products p label {
+  text-decoration: line-through;
+  color: grey;
+  margin-left: 10px;
+}
